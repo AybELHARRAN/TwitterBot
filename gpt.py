@@ -1,7 +1,10 @@
 import openai
 import os
 
+
+
 openai.api_key=os.environ.get("gpt_key")
+
 
 messages=[]
 def gpttype(role="system",content="You are a kind helpful assistant"):
@@ -25,6 +28,9 @@ def askgpt(message,product):
 
 
 
+
+
+        
  
     
 
